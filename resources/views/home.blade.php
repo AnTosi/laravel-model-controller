@@ -8,10 +8,10 @@
                 <a href="">
                     <h4>{{ $movie->title }}</h4>
                     <img src="https://picsum.photos/200/" alt="">
-                    <p>{{ $movie->original_title }}</p>
-                    <p>Nationality: {{ $movie->nationality}}</p>
-                    <p>Release Date: {{ $movie->date }}</p>
-                    <p>Movie score: {{ $movie->vote }}</p>
+                    <p class="fw_600">{{ $movie->original_title }}</p>
+                    <p><span class="fw_600">Nationality:</span> <span class="op_half">{{ $movie->nationality}}</span></p>
+                    <p><span class="fw_600">Release Date:</span> <span class="op_half">{{ $movie->date }}</span></p>
+                    <p><span class="fw_600">Movie score:</span> <span class="op_half">{{ $movie->vote }}</span></p>
                 </a>
             </div>
         @empty
